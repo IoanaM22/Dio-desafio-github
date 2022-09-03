@@ -1,0 +1,6 @@
+Servidor - Remote Repository ou Repositório Remoto (Github)
+
+Ambiente de Desenvolvimento (Computador)
+	- Working Directory ou Diretório de Trabalho
+	- Staging Area ou Área de Estágio
+	- Local Repository ou Repositório Local

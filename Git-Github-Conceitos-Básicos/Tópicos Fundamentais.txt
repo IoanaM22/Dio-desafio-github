@@ -1,0 +1,27 @@
+Tópicos Fundamentais para entender o funcionamento do Git
+
+-SHA1 (Secure Hash Algorithm - Algoritimo de Hash Seguro)
+	É um conjunto de funções hash criptográficas projetadas pela NSA (Agência de segurança Nacional dos EUA)
+	A encriptação gera um conjunto de caracteres identificador de 40 dígitos, sendo uma forma curta de representar um arquivo.		
+				
+-Objetos Fundamentais
+	Blob - são os arquivos
+	Tree - são as pastas que contém os arquivos
+	Commit - é onde fica salvo toda a informação
+
+	*Qualquer mudança nos blobs ou nas trees gera um novo hash e modifica o hash do commit.
+
+					       -----> BLOB
+                                   -----> TREE -----> BLOB		
+		COMMIT -----> TREE -----> BLOB
+				   -----> BLOB
+
+-Sistemas Distribuídos
+	Sistema distribuído seguro - o código é hosteado na nuvem (github), esse código representa o estado final do código ou do sistema, o mais atualizado. 
+	Pode ter várias pessoas contribuindo nele que são os manteiners, cada um com um hash diferente, pois o commit não pode ser alterado.
+
+-Segurança
+	Chave SSH - é uma forma de manter a conexão segura e encriptada entre 2 máquinas (servidor do github <---> maquina local)
+	A máquina local deve ser configurada como confiável pelo github, gerando 2 chaves, uma pública e uma privada.
+	Colocar a chave pública gerada no Github para que ele reconheça a máquina local, estabelecendo a coneção.
+

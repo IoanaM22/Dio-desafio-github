@@ -1,0 +1,7 @@
+Git - É um sistema de versionamento de códigos distribuidos.
+É um CLI (Command Line Interface)
+
+
+Github - É um repositório de códigos que permite o trabalho em equipe, com várias pessoas interagindo no mesmo código.
+Funciona como uma rede social e pode ser armazenado em nuvem.
+É um GUI (Graphic User Interface)
